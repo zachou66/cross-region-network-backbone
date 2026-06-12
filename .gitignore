@@ -1,0 +1,15 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+.vscode/
+
+# Never commit keys or credentials.
+# Committed wg0.conf copies in configs/ must have PrivateKey and real IPs <REDACTED>.
+*.pem
+*private.key*
+*.secret
+secrets.*
+*-credentials.*
+.aws/
