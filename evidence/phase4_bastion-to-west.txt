@@ -1,0 +1,43 @@
+ubuntu@ip-10-10-1-196:~$ ssh ubuntu@10.20.2.232
+The authenticity of host '10.20.2.232 (10.20.2.232)' can't be established.
+ED25519 key fingerprint is: SHA256:JYWBDA/gl9VXW0rBPnwFTykCPmjmy4qdNjx1prm2Gt4
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added '10.20.2.232' (ED25519) to the list of known hosts.
+Welcome to Ubuntu 24.04.4 LTS (GNU/Linux 6.17.0-1017-aws x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Sat Jun 20 04:45:02 UTC 2026
+
+  System load:  0.0               Temperature:           -273.1 C
+  Usage of /:   27.4% of 6.71GB   Processes:             108
+  Memory usage: 23%               Users logged in:       0
+  Swap usage:   0%                IPv4 address for ens5: 10.20.2.232
+
+
+Expanded Security Maintenance for Applications is not enabled.
+
+0 updates can be applied immediately.
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+The list of available updates is more than a week old.
+To check for new updates run: sudo apt update
+
+
+The programs included with the Ubuntu system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
+applicable law.
+
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+ubuntu@ip-10-20-2-232:~$
